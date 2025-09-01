@@ -44,7 +44,7 @@ const names = ['Hello', 'World', 'BD'];
 names.forEach(name => writeOutput(name));
 
 
-const person = { id: 1, name: "Shaon" };
+const person = { id: 1, name: "Habib" };
 for (let key in person) {
     writeOutput(`${key}: ${person[key]}`);
 }

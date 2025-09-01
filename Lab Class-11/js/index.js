@@ -1,20 +1,20 @@
 
 var student1 = {
-    name: "Shaon",
-    roll: 1001,
+    name: "Habib",
+    roll: 1011,
     year: "1st",
     courses: ["Mathematics", "Physics", "Computer Science"]
 };
 
 var student2 = {
-    name: "Nahid",
-    roll: 1002,
+    name: "Sifat",
+    roll: 1012,
     year: "2nd",
     courses: ["English", "History", "Programming"]
 };
 
 
-document.writeln(`Name: ${student1.name}, Roll: ${student1.roll}, Year: ${student1.year}, Courses: ${student1.courses}<br>`);
+document.writeln(`Name: ${student1.name}<br>Roll: ${student1.roll}<br>Year: ${student1.year}<br>Courses: ${student1.courses}<br><br>`);
 document.writeln(`Name: ${student2.name}<br>Roll: ${student2.roll}<br>Year: ${student2.year}<br>Courses: ${student2.courses}<br>`);
 
 
@@ -30,7 +30,7 @@ function Student(name, age, roll, year, courses) {
     };
 }
 
-var std = new Student("Tuhin", 21, 1003, "2nd", ["Data Structures", "Algorithms"]);
+var std = new Student("Tuhin", 21, 1013, "2nd", ["Data Structures", "Algorithms"]);
 std.display();
 document.writeln(`<br>The student has enrolled in <span class="highlight">${std.courses[1]}</span> this semester.`);
 
@@ -61,7 +61,7 @@ var headerText = document.getElementById("header3").innerText;
 document.writeln(`<br><span class="highlight">${headerText}</span>`);
 
 
-document.getElementById("header3").innerHTML = "Welcome to Shaon & Nahid Portal";
+document.getElementById("header3").innerHTML = "Welcome to Habib & Sifat Portal";
 
 
 var headClass = document.getElementsByClassName("head")[0];
@@ -90,9 +90,9 @@ function Stud(name, age, roll) {
     };
 }
 
-var std1 = new Stud("Shaon", 20, 1001);
-var std2 = new Stud("Nahid", 21, 1002);
-var std3 = new Stud("Mahi", 22, 1004);
+var std1 = new Stud("Habib", 20, 1011);
+var std2 = new Stud("Sifat", 21, 1012);
+var std3 = new Stud("Maruf", 22, 1014);
 var totalStudents = [std1, std2, std3];
 
 for (var i = 0; i < totalStudents.length; i++) {
